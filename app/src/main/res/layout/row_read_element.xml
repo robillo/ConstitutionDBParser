@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightest_grey"
+            tools:ignore="ContentDescription"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            tools:text="ARTICLE 249"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/elementTitle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            tools:text="0"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/elementId"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey"
+            android:layout_marginTop="3dp"
+            android:textSize="15sp"
+            tools:text="null"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/elementSubtitle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey"
+            android:layout_marginTop="3dp"
+            android:textSize="15sp"
+            tools:text="PARTS"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/elementCategory"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey"
+            android:layout_marginTop="3dp"
+            android:textSize="15sp"
+            tools:text="null"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/elementShortDescription"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:lines="1"
+            tools:text="This is the article 249 of the entire Indian Constitution."
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/elementContent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lighter_grey"
+            android:layout_marginTop="3dp"
+            android:textSize="15sp"
+            tools:text="[sovereign, fraternity, elections]"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/elementTags"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightest_grey"
+            tools:ignore="ContentDescription"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

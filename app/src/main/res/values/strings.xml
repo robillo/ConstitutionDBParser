@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Constitution DB Parser</string>
+    <string name="constitution_db_scanner">CONSTITUTION DB SCANNER</string>
+    <string name="sorry_boss">Failed to load data. Sorry boss!</string>
+    <string name="search_results">SEARCH RESULTS</string>
+    <string name="dummy_fraternity">fraternity</string>
+</resources>
